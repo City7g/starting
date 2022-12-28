@@ -1,0 +1,28 @@
+select {
+  padding: 10px 34px 11px 15px;
+  border-radius: $radius;
+  border: 1px solid #D7DADD;
+  background-color: $white;
+  background-image: url('/img/icons/arrow-down.svg');
+  background-position: center right 18px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  appearance: none;
+  width: 160px;
+  color: #424551;
+  font-size: 14px;
+  line-height: 1.5;
+
+  @media (max-width: 991px) {
+    padding: 10px 15px;
+  }
+
+  &:focus {
+    outline: 1px solid black;
+  }
+}
+
+.select-count {
+  width: 72px;
+  background-image: url('/img/icons/select.svg');
+}

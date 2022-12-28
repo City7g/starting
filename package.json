@@ -1,0 +1,27 @@
+{
+  "name": "start-template",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "gsap": "^3.9.1"
+  },
+  "devDependencies": {
+    "@barba/core": "^2.9.7",
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-util": "^3.0.8",
+    "sass": "^1.43.4",
+    "vinyl-ftp": "^0.6.1",
+    "webpack-stream": "^7.0.0"
+  }
+}

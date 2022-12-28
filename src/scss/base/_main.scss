@@ -1,0 +1,72 @@
+html {
+  scrollbar-color: $primary $white;
+  scrollbar-width: none;
+  // scrollbar-gutter: stable;
+}
+
+* {
+  scrollbar-width: thin;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  background:red;
+}
+
+::-webkit-scrollbar {
+  // display: none;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: $white;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $primary;
+}
+
+body {
+  font-family: 'Lato';
+  background-color: $white;
+  color: $black;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+body.modal {
+  overflow: hidden;
+}
+
+body.menu {
+  @media (max-width: $hamb) {
+    overflow: hidden;
+  }
+}
+
+a {
+  color: #424551;
+
+  &:hover {
+    transition: 0.3s color ease;
+    color: $primary;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid $black;
+
+}
+
+::selection {
+  background-color: $black;
+  color: $white;
+}
+
+img::selection {
+  background-color: rgba($secondary, 0.3);
+}
+
+::-webkit-scrollbar-track {
+  width: 8px;
+}
